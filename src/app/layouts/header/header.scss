@@ -1,0 +1,10 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-toolbar {
+    background-color: #002953;
+    color: white;
+    .mat-mdc-button-base.mat-mdc-button-base.mat-unthemed {
+      color: white;
+    }
+}
