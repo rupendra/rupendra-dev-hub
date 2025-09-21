@@ -11,23 +11,24 @@ import { RouterLink } from '@angular/router';
 })
 export class Main {
 cards = [
-  { icon: 'smart_button', title: 'Buttons' },
-  { icon: 'grid_view', title: 'Grid' },
-  { icon: 'table_chart', title: 'Table' },
-  { icon: 'dashboard', title: 'Dashboard' },
-  { icon: 'person', title: 'Profile' },
-  { icon: 'settings', title: 'Settings' },
-  { icon: 'notifications', title: 'Notifications' },
-  { icon: 'bar_chart', title: 'Charts' },
-  { icon: 'event', title: 'Calendar' },
-  { icon: 'assignment', title: 'Tasks' },
-  { icon: 'shopping_cart', title: 'E-Commerce' },
-  { icon: 'group', title: 'Users' },
-  { icon: 'lock', title: 'Security' },
-  { icon: 'map', title: 'Maps' },
-  { icon: 'analytics', title: 'Reports' },
-  { icon: 'folder', title: 'Files' },
-  { icon: 'help', title: 'Help' },
-  { icon: 'logout', title: 'Logout' }
+  { icon: 'smart_button', title: 'Buttons', url: '/button' },
+  { icon: 'grid_view', title: 'dialog', url: '/dialog' },
+  { icon: 'table_chart', title: 'bottom-sheet', url: '/sheet' },
+  { icon: 'dashboard', title: 'dialog-data', url: '/dialogwithdata' },
+  { icon: 'person', title: 'Profile', url: '/profile' },
+  { icon: 'settings', title: 'Settings', url: '/settings' },
+  { icon: 'notifications', title: 'Notifications', url: '/notifications' },
+  { icon: 'bar_chart', title: 'Charts', url: '/charts' },
+  { icon: 'event', title: 'Calendar', url: '/calendar' },
+  { icon: 'assignment', title: 'Tasks', url: '/tasks' },
+  { icon: 'shopping_cart', title: 'E-Commerce', url: '/ecommerce' },
+  { icon: 'group', title: 'Users', url: '/users' },
+  { icon: 'lock', title: 'Security', url: '/security' },
+  { icon: 'map', title: 'Maps', url: '/maps' },
+  { icon: 'analytics', title: 'Reports', url: '/reports' },
+  { icon: 'folder', title: 'Files', url: '/files' },
+  { icon: 'help', title: 'Help', url: '/help' },
+  { icon: 'logout', title: 'Logout', url: '/logout' }
 ];
+
 }

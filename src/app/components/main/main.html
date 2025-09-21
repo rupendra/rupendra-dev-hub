@@ -5,8 +5,8 @@
             <div class="row">
                 @for (item of cards; track $index) {
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6 pb-4">
-                    <mat-card>
-                    <div class="card-content" routerLink="/button">
+                    <mat-card [routerLink]="item.url">
+                    <div class="card-content" >
                             <mat-icon>{{item.icon}}</mat-icon>
                            <span>{{item.title}}</span>
                     </div>

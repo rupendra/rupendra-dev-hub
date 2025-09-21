@@ -1,0 +1,15 @@
+::ng-deep .mat-bottom-sheet-container {
+  width: 100vw !important; 
+  max-width: 100vw !important; 
+  margin: 0 !important; 
+  border-radius: 0 !important; 
+  height: 80vh !important; 
+  box-sizing: border-box;
+}
+
+.bottom-sheet-content {
+  height: 100%;
+  overflow-y: auto; // scroll if content exceeds height
+}
+
+

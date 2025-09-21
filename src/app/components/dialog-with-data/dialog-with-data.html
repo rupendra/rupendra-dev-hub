@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="pt-5">
+        <h4>Dialog with data example</h4>
+         <ol>
+            <li>
+                <mat-form-field>
+                    <mat-label>What is your name?</mat-label>
+                    <input matInput [(ngModel)]="name"/>
+                </mat-form-field>
+            </li>
+            <li>
+                 <button matButton="elevated" (click)="openDialog()">Pick one</button>
+            </li>
+            @if(animal()){
+                <li>
+                    You choosen : <em>{{animal()}}</em>
+                </li>
+            }
+         </ol>
+    </div>
+</div>
