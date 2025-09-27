@@ -2,8 +2,6 @@ import { Component, inject } from '@angular/core';
 import { MATERIAL_IMPORTS } from '../../shared/material.imports';
 import {
   MatBottomSheet,
-  MatBottomSheetModule,
-  MatBottomSheetRef,
 } from '@angular/material/bottom-sheet';
 import { Raiseticket } from './raiseticket/raiseticket';
 

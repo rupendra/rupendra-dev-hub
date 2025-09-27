@@ -13,7 +13,12 @@ import { UserPopup } from './user-popup/user-popup';
 export class Dialogcomponent {
  readonly dialog=inject(MatDialog);
  openDialog(){
-  const dialogRef=this.dialog.open(UserPopup,{data:"Rupendra"});
+  const dialogRef=this.dialog.open(UserPopup,{
+    data:"Rupendra",
+    width:'90%',
+    maxWidth:'100%'
+
+  });
   dialogRef.afterClosed().subscribe(result=>{
     console.log(`Dialog result :${result}`);
   })

@@ -2,13 +2,11 @@ import { Component } from '@angular/core';
 import { MATERIAL_IMPORTS } from '../../shared/material.imports';
 
 @Component({
-  standalone:true,
-  selector: 'app-menucomponent',
+  selector: 'app-menucmp',
   imports: [...MATERIAL_IMPORTS],
-  templateUrl: './menucomponent.html',
-  styleUrl: './menucomponent.scss',
-
+  templateUrl: './menucmp.html',
+  styleUrl: './menucmp.scss'
 })
-export class Menucomponent {
+export class Menucmp {
 
 }

@@ -15,8 +15,8 @@ cards = [
   { icon: 'grid_view', title: 'dialog', url: '/dialog' },
   { icon: 'table_chart', title: 'bottom-sheet', url: '/sheet' },
   { icon: 'dashboard', title: 'dialog-data', url: '/dialogwithdata' },
-  { icon: 'person', title: 'Profile', url: '/profile' },
-  { icon: 'settings', title: 'Settings', url: '/settings' },
+  { icon: 'menus', title: 'menu', url: '/menu' },
+  { icon: 'settings', title: 'snackbar', url: '/snackbar' },
   { icon: 'notifications', title: 'Notifications', url: '/notifications' },
   { icon: 'bar_chart', title: 'Charts', url: '/charts' },
   { icon: 'event', title: 'Calendar', url: '/calendar' },
@@ -28,7 +28,11 @@ cards = [
   { icon: 'analytics', title: 'Reports', url: '/reports' },
   { icon: 'folder', title: 'Files', url: '/files' },
   { icon: 'help', title: 'Help', url: '/help' },
+  { icon: 'logout', title: 'Logout', url: '/logout' },
+    { icon: 'folder', title: 'Files', url: '/files' },
+  { icon: 'help', title: 'Help', url: '/help' },
   { icon: 'logout', title: 'Logout', url: '/logout' }
+  
 ];
 
 }
